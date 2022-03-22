@@ -1,0 +1,14 @@
+body{
+	background-color: green;
+	color: darkred; 
+	text-align: center;
+	
+	}
+#wrapper {
+    width: 1250px;
+    margin: 80px auto;
+	background-color: purple;
+	height: 1850px;
+	
+}
+

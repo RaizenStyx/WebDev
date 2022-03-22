@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charSet="utf-8">
+
+	<title>CollegeJSFiles</title>
+	
+</head>
+<body>
+<h2>Lab 5</h2>
+<p>Form catching</p>
+<form id="registration">
+    * First Name: <input type="text" name="fname"><br>
+    * Last Name: <input type="text" name="lname"><br>
+    * Password: <input type="password" name="password"><br>
+    <label for= "birthday">Birthday: </label>
+    <input type="date" id="birthday" name="birthday"><br>
+    <label for= "email">Enter your Email:  </label>
+    <input type="email" id="email" name="email"><br>
+    <input type="button" value="Submit" onclick="getFormvalues()">
+</form>
+
+<div id="formOutput"></div>
+
+<h2>Lab 6</h2>
+<p>A fahrenheit to Celsius calculator</p>
+<form>
+	Fahrenheit <input type = "text" name="fahrenheit" id="fahrenheit" required>
+	<input type="button" value="Calculate" onClick="fahrenheitToCelsius()">
+</form>
+		
+<div id="output"></div>
+
+<br>
+<p>I did not feel it was a time worthy thing to implement all labs here. Just 2 of the most I found important.</p>
+
+<script src = "js/Lab06.js"></script>
+
+<script src = "js/Lab05.js"></script>
+
+
+</body>
+</html>

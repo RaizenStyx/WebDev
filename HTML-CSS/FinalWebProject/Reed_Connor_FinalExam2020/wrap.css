@@ -1,0 +1,64 @@
+body{
+	background-color: 	#339933;
+	color: 				#330066; 
+	text-align: 		center;
+	list-style-position: inside;
+}
+#wrapper {
+    width: 				1250px;
+    margin: 			80px auto;
+	background-color: 	#00CCFF;
+	height: 			1550px;
+}
+#banner {
+	border: 			5px solid purple;
+	background-color:	#00CCFF;
+	outline-style: 		solid;
+	outline-color: 		black;
+	text-align:			center;
+}
+#nav	{
+	position: 			fixed;
+	top:				148px;
+	height:				900px;
+	width:				210px;
+	background-color:	#009999;
+	border:				5px dashed purple;
+}
+#main	{
+	position:			fixed;
+	left:				250px;
+	height:				842px;
+	width:				1400px;
+	background-color:	#009999;
+	border:				5px dotted purple;
+}
+#name	{
+	position:			fixed;
+	top:				250px;
+	left:				800px;
+	height:				300px;
+	width:				300px;
+	background-color:	purple;
+	border:				5px solid purple;
+}
+#pic	{
+	position:			fixed;
+	background-image:	url("Images/mothday.jpg");
+	background-repeat:	no-repeat;
+	left:				500px;
+	top:				175px;
+	height:				684px;
+	width:				910px;
+}
+#foot	{
+	position:			fixed;
+	top:				950px;
+	left:				250px;
+	height:				40px;
+	width:				1400px;
+	text-align:			left;
+	background-color:	#00CCFF;
+	border:				5px solid purple;
+}
+
